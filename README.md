@@ -2,7 +2,7 @@
   <img src="logo.svg" alt="Logo">
 </p>
 
-# Arbor ✨
+# Acre ✨
 
 ![Node.js Version](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-007ACC?logo=typescript&logoColor=white)
@@ -12,25 +12,18 @@
 [![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
 ![License](https://img.shields.io/badge/License-MIT-yellow?logo=open-source-initiative&logoColor=white)
 
-**Arbor** is a minimal yet powerful **Next.js** template designed for fast and scalable frontend development. It includes a pre-configured setup with **ESLint**, **Prettier**, **Husky**, and **Commitlint** to ensure high code quality and a seamless developer experience.
+**Acre** is a sleek **Next.js** project built to experiment with **Tailwind CSS**. It features a **returns calculator** with smooth animations, providing a visually engaging and intuitive user experience.
 
 ---
 
 ## Features ⚡
 
-- **Next.js**: A React framework for server-side rendering, static site generation, and API routes.  
-- **TypeScript**: Ensures type safety and maintainability.  
-- **Pre-configured Tooling**:  
-  - **ESLint**: Enforces consistent code quality.  
-  - **Prettier**: Auto-formats code for readability.  
-  - **Husky**: Git hooks to enforce best practices before commits.  
-  - **Commitlint**: Ensures a standardized commit message format.  
-- **Tailwind CSS**: A utility-first CSS framework for styling.  
-- **Absolute Imports & Module Aliases**: Cleaner and more readable imports.  
-- **SEO Optimized**: Basic meta tags for better search engine indexing.  
-- **PWA-Ready**: Configuration available to enable Progressive Web App support.  
-- **Dark Mode Support**: Preconfigured with Tailwind’s dark mode support.  
-- **Efficient Developer Experience**: Fast setup and optimized configuration.
+- **Next.js**: Fast and efficient framework for React.  
+- **TypeScript**: Strongly typed for better maintainability.  
+- **Tailwind CSS**: Fully styled with Tailwind, exploring animations and utility classes.  
+- **Framer Motion Integration**: For smooth and interactive animations.  
+- **Responsive UI**: Designed to work seamlessly across all devices.  
+- **Optimized Performance**: Lightweight and fast-loading.  
 
 ---
 
@@ -49,8 +42,8 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tejastn10/arbor.git
-   cd arbor
+   git clone https://github.com/tejastn10/acre.git
+   cd acre
    ```
 
 2. Install dependencies:
@@ -65,7 +58,7 @@ Ensure you have the following installed:
    npm run dev
    ```
 
-4. Open `http://localhost:3000` in your browser to view the app.
+4. Open `http://localhost:3000` in your browser to use the returns calculator.
 
 ---
 
@@ -93,7 +86,7 @@ arbor/
 
 ---
 
-## License 🐜
+## License 📜
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
@@ -101,7 +94,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments 🙌
 
-- Built with **Next.js** for modern web applications.  
-- Inspired by the glow of **Arbor**, providing a blazing-fast starting point for frontend projects.  
-- Made with ❤️ for developers who value a structured and efficient setup.
-
+- Built with **Next.js** and **Tailwind CSS**.
+- Inspired by the concept of **Acre**, where small investments grow into valuable returns.
+- Created with ❤️ to explore animations and styling in Tailwind.
