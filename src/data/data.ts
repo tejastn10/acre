@@ -1,4 +1,4 @@
 export const DATA = {
-	name: "arbor",
-	description: "Code Screenshot generator",
+	name: "acre",
+	description: "Returns Calculator",
 } as const;
