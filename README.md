@@ -65,7 +65,7 @@ Ensure you have the following installed:
 ## Project Structure 📂
 
 ```bash
-arbor/
+acre/
 ├── public/             # Static assets
 ├── src/
 │   ├── components/     # Shared UI components
