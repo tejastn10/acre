@@ -55,7 +55,7 @@ export default function RootLayout({
 		<html lang="en" suppressHydrationWarning className={outfit.variable}>
 			<body
 				className={cx(
-					"min-h-screen bg-background font-outfit antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6",
+					"min-h-screen bg-background font-outfit antialiased max-w-2xl mx-auto",
 					outfit.variable
 				)}
 			>
