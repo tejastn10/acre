@@ -18,12 +18,12 @@
 
 ## Features ⚡
 
-- **Next.js**: Fast and efficient framework for React.  
-- **TypeScript**: Strongly typed for better maintainability.  
-- **Tailwind CSS**: Fully styled with Tailwind, exploring animations and utility classes.  
-- **Framer Motion Integration**: For smooth and interactive animations.  
-- **Responsive UI**: Designed to work seamlessly across all devices.  
-- **Optimized Performance**: Lightweight and fast-loading.  
+- **Next.js**: Fast and efficient framework for React.
+- **TypeScript**: Strongly typed for better maintainability.
+- **Tailwind CSS**: Fully styled with Tailwind, exploring animations and utility classes.
+- **Framer Motion Integration**: For smooth and interactive animations.
+- **Responsive UI**: Designed to work seamlessly across all devices.
+- **Optimized Performance**: Lightweight and fast-loading.
 
 ---
 
