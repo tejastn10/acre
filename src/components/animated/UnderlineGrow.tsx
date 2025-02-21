@@ -1,7 +1,8 @@
 "use client";
 
-import { cx } from "@/utils/tailwind";
 import React, { FC, ReactNode, useEffect, useState } from "react";
+
+import { cx } from "@/utils/tailwind";
 
 type UnderlineGrowProps = {
 	duration?: number;
