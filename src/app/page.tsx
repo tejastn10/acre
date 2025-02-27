@@ -95,7 +95,7 @@ export default function ReturnCalculator() {
 
 						{/* Theme toggle button */}
 						<BlurFade delay={BLUR_FADE_DELAY}>
-							<Button variant="ghost" size="icon" onClick={toggleTheme}>
+							<Button variant="ghost" size="icon" onClick={toggleTheme} className="cursor-pointer">
 								{isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
 							</Button>
 						</BlurFade>
