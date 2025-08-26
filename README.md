@@ -75,8 +75,7 @@ acre/
 │   ├── hooks/          # Custom React hooks
 │   ├── contexts/       # Context API state management
 │   ├── lib/            # API and backend interactions
-├── .eslint.config.mjs  # ESLint configuration
-├── .prettierrc.yml     # Prettier configuration
+├── biome.json          # Biome configuration
 ├── .commitlintrc.yml   # Commitlint configuration
 ├── next.config.js      # Next.js configuration
 ├── tsconfig.json       # TypeScript configuration
