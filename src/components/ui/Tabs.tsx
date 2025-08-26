@@ -1,8 +1,7 @@
 "use client";
 
-import { ComponentPropsWithoutRef, ComponentRef, forwardRef } from "react";
-
-import { Root, List, Trigger, Content } from "@radix-ui/react-tabs";
+import { Content, List, Root, Trigger } from "@radix-ui/react-tabs";
+import { type ComponentPropsWithoutRef, type ComponentRef, forwardRef } from "react";
 
 import { cx } from "@/utils/tailwind";
 

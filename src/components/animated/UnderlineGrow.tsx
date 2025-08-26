@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FC, ReactNode, useEffect, useState } from "react";
+import { type FC, type ReactNode, useEffect, useState } from "react";
 
 import { cx } from "@/utils/tailwind";
 

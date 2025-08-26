@@ -1,6 +1,5 @@
-import { ComponentPropsWithoutRef, forwardRef } from "react";
-
-import { Root, Track, Range, Thumb } from "@radix-ui/react-slider";
+import { Range, Root, Thumb, Track } from "@radix-ui/react-slider";
+import { type ComponentPropsWithoutRef, forwardRef } from "react";
 
 import { cx } from "@/utils/tailwind";
 

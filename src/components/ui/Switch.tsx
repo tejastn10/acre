@@ -1,8 +1,7 @@
 "use client";
 
-import { forwardRef, ComponentRef } from "react";
-
 import { Root, Thumb } from "@radix-ui/react-switch";
+import { type ComponentRef, forwardRef } from "react";
 
 import { cx } from "@/utils/tailwind";
 

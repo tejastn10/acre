@@ -1,10 +1,8 @@
 "use client";
 
-import { ComponentPropsWithoutRef, ComponentRef, forwardRef } from "react";
-
 import { Root } from "@radix-ui/react-label";
-
 import { cva, type VariantProps } from "class-variance-authority";
+import { type ComponentPropsWithoutRef, type ComponentRef, forwardRef } from "react";
 
 import { cx } from "@/utils/tailwind";
 

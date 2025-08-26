@@ -1,10 +1,7 @@
 "use client";
 
-import { FC, ReactNode, useRef } from "react";
-
-import { AnimatePresence, useInView, Variants } from "motion/react";
-
-import { motion } from "motion/react";
+import { AnimatePresence, motion, useInView, type Variants } from "motion/react";
+import { type FC, type ReactNode, useRef } from "react";
 
 type BlurFadeProps = {
 	blur?: string;

@@ -1,33 +1,30 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { Moon, PiggyBank, Sun, TrendingUp } from "lucide-react";
 
 import { motion } from "motion/react";
-import { Moon, Sun, PiggyBank, TrendingUp } from "lucide-react";
-
+import { useEffect, useState } from "react";
+import {
+	Bar,
+	BarChart,
+	CartesianGrid,
+	Cell,
+	Legend,
+	Pie,
+	PieChart,
+	ResponsiveContainer,
+	Tooltip,
+	XAxis,
+	YAxis,
+} from "recharts";
+import { BlurFade } from "@/components/animated/BlurFade";
+import { UnderlineGrow } from "@/components/animated/UnderlineGrow";
+import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Label } from "@/components/ui/Label";
 import { Slider } from "@/components/ui/Slider";
-import { Button } from "@/components/ui/Button";
 import { Switch } from "@/components/ui/Switch";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/Tabs";
-
-import { BlurFade } from "@/components/animated/BlurFade";
-import { UnderlineGrow } from "@/components/animated/UnderlineGrow";
-
-import {
-	BarChart,
-	Bar,
-	XAxis,
-	YAxis,
-	CartesianGrid,
-	Tooltip,
-	ResponsiveContainer,
-	PieChart,
-	Pie,
-	Cell,
-	Legend,
-} from "recharts";
 import { BLUR_FADE_DELAY } from "@/constants/ui";
 
 type YearlyData = { year: number; amount: number; invested: number };
@@ -323,7 +320,7 @@ export default function ReturnCalculator() {
 									animationDuration={1500}
 								>
 									{pieData.map((_entry, index) => (
-										<Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+										<Cell key={`cell-${_entry.name}`} fill={COLORS[index % COLORS.length]} />
 									))}
 								</Pie>
 								<Tooltip
@@ -376,7 +373,7 @@ export default function ReturnCalculator() {
 								<Bar dataKey="amount" fill="hsl(var(--primary))">
 									{yearlyData.map((_entry, index) => (
 										<Cell
-											key={`cell-${index}`}
+											key={`cell-${_entry.year}`}
 											fill={`hsl(var(--primary) / ${0.3 + (index / yearlyData.length) * 0.7})`}
 										/>
 									))}
