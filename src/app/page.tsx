@@ -40,7 +40,7 @@ export default function ReturnCalculator() {
 
 	// SIP parameters
 	const [sipYears, setSipYears] = useState(5);
-	const [sipAmount, setSipAmount] = useState(5000);
+	const [sipAmount, setSipAmount] = useState(5_000);
 	const [sipReturnRate, setSipReturnRate] = useState(10);
 	const [sipYearlyData, setSipYearlyData] = useState<YearlyData[]>([]);
 	const [annualIncrease, setAnnualIncrease] = useState(false);
@@ -189,9 +189,9 @@ export default function ReturnCalculator() {
 											<Slider
 												value={[lsAmount]}
 												onValueChange={(value) => setLsAmount(value[0])}
-												min={1000}
-												max={1000000}
-												step={1000}
+												min={1_000}
+												max={1_00_00_000}
+												step={1_000}
 											/>
 										</div>
 
